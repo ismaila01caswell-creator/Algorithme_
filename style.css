@@ -1,0 +1,53 @@
+.titre-section {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: #222;
+}
+.section1 {
+  display: flex;             
+  flex-wrap: wrap;             
+  justify-content: center;   /* Centre les cartes horizontalement */
+    gap: 25px;                 /* Espacement propre entre les cartes */
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;             
+}
+.card {
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Rend l'animation fluide */
+}
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+@media (max-width: 576px) {
+    .card {
+        width: 100% !important;
+ }
+ body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+border-radius: 12px !important;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    overflow: hidden;
+    background-color: #ffffff;
+}
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+body {
+    background-color: #f8f9fa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
