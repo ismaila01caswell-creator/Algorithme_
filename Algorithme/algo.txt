@@ -1,0 +1,26 @@
+algoritme : Analyse_phrase
+variables : longeur,mots,voyelles : entier
+carac : caractere
+
+Debut
+longueur: =0
+mots: -1
+voyelles:0
+lire(carac)
+Tant que (carac!=".") Faire
+    longeur: longeur+1
+    Si (carac=" ") Alors
+        mots: mots+1
+        
+    Finsi
+    Si (carac="a" ou carac= "i"ou carc= "e") Alors
+        voyelles:=voyelles+
+    Finsi
+    lire(carac)
+FinFaire
+ecrire ("la longueur est:", longeur)
+ecrire ("le nombre de mots est:", mots)
+ecrire ("le nombre de voyelles est:", voyelles)
+fin 
+
+
